@@ -1,8 +1,19 @@
 apiVersion: v1
 entries:
+  mariadb:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-05-28T09:58:30.5059278+02:00"
+    description: Helm chart para desplegar MariaDB
+    digest: ea223a12f281bb64f61fe9459e0c9ed9271977e3a5179edd1f4922c77ea2a2a8
+    name: mariadb
+    type: application
+    urls:
+    - https://pliksys.github.io/helm/mariadb-0.1.0.tgz
+    version: 0.1.0
   nginx-proxy-manager:
   - apiVersion: v2
-    created: "2023-05-26T08:48:37.1698389+02:00"
+    created: "2023-05-28T09:58:30.5115013+02:00"
     description: A Helm chart for deploying Nginx Proxy Manager
     digest: 16a3be6e630b217c0bfa5b46019944a96febf59ac63ee754442f8d70c336bab0
     name: nginx-proxy-manager
@@ -12,7 +23,7 @@ entries:
   wireguard-helm:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-05-26T08:48:37.1752846+02:00"
+    created: "2023-05-28T09:58:30.517504+02:00"
     description: A Helm chart for deploying WireGuard and WireGuard UI
     digest: ad922533c9ac7cc0f81ce17b9deec67f58f2c21a7e49c1509c44fc628fc8244d
     home: https://gitlab.globexcorp.io/devops/kubernetes/helm-charts/wireguard-ui
@@ -26,4 +37,4 @@ entries:
     urls:
     - https://pliksys.github.io/helm/wireguard-helm-0.2.0.tgz
     version: 0.2.0
-generated: "2023-05-26T08:48:37.1687393+02:00"
+generated: "2023-05-28T09:58:30.4999261+02:00"
